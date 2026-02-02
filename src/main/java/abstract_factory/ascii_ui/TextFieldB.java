@@ -1,15 +1,15 @@
-package abstract_factory.rpg_map_gen;
+package abstract_factory.ascii_ui;
 
-public class CheckboxB extends Checkbox {
+public class TextFieldB extends TextField {
     private String text;
 
-    public CheckboxB(String text) {
+    public TextFieldB(String text) {
         this.text = text;
     }
 
     @Override
     public void display() {
-        System.out.println("{ " + this.text + " }");
+        System.out.println("_ " + this.text + " _");
     }
 
     @Override

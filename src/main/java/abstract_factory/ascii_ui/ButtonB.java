@@ -1,4 +1,4 @@
-package abstract_factory.rpg_map_gen;
+package abstract_factory.ascii_ui;
 
 public class ButtonB extends Button {
     private String text;

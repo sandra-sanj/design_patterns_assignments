@@ -1,15 +1,15 @@
-package abstract_factory.rpg_map_gen;
+package abstract_factory.ascii_ui;
 
-public class TextFieldA extends TextField {
+public class ButtonA extends Button {
     private String text;
 
-    public TextFieldA(String text) {
+    public ButtonA(String text) {
         this.text = text;
     }
 
     @Override
     public void display() {
-        System.out.println(". " + this.text + " .");
+        System.out.println("< " + this.text + " >");
     }
 
     @Override

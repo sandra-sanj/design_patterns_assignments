@@ -1,4 +1,4 @@
-package factory_method.ascii_ui;
+package factory_method.rpg_map_gen;
 
 public class SwampTile extends Tile {
 
