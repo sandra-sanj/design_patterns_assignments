@@ -1,14 +1,14 @@
-package factory_method;
+package factory_method.ascii_ui;
 
-public class BuildingTile extends Tile {
+public class RoadTile extends Tile {
     @Override
     public String getCharacter() {
-        return "B";
+        return "R";
     }
 
     @Override
     public String getType() {
-        return "building";
+        return "road";
     }
 
     @Override

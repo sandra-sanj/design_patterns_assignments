@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.ascii_ui;
 
 public class Game {
     private static int mapRows = 5;

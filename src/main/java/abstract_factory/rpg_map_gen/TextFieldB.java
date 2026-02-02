@@ -1,15 +1,15 @@
-package abstract_factory;
+package abstract_factory.rpg_map_gen;
 
-public class ButtonA extends Button {
+public class TextFieldB extends TextField {
     private String text;
 
-    public ButtonA(String text) {
+    public TextFieldB(String text) {
         this.text = text;
     }
 
     @Override
     public void display() {
-        System.out.println("< " + this.text + " >");
+        System.out.println("_ " + this.text + " _");
     }
 
     @Override

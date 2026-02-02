@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.rpg_map_gen;
 
 public class AFactory extends UIFactory {
 

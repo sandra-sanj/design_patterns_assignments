@@ -1,15 +1,15 @@
-package factory_method;
+package factory_method.ascii_ui;
 
-public class WaterTile extends Tile {
+public class SwampTile extends Tile {
 
     @Override
     public String getCharacter() {
-        return "W";
+        return "S";
     }
 
     @Override
     public String getType() {
-        return "water";
+        return "swamp";
     }
 
     @Override

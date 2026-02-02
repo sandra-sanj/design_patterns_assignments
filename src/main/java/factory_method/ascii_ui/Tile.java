@@ -1,4 +1,4 @@
-package factory_method;
+package factory_method.ascii_ui;
 
 public abstract class Tile {
     private int row;

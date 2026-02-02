@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.rpg_map_gen;
 
 public abstract class Checkbox {
     public abstract void display();
