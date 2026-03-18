@@ -15,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         int nSmall = 30;
-        int nLarge = 100000;
+        int nLarge = 10000;
 
         Random random = new Random();
 
@@ -36,17 +36,17 @@ public class Main {
 
         SortingContext sortingContext = new SortingContext(new HeapSorting());
         System.out.println("\nHeap Sort");
-        System.out.println(sortArray(sortingContext, arrSmall));
-        System.out.println(sortArray(sortingContext, arrLarge));
+        System.out.println(sortArray(sortingContext, arrSmall.clone()));
+        System.out.println(sortArray(sortingContext, arrLarge.clone()));
 
         sortingContext.setStrategy(new InsertionSorting());
         System.out.println("\nInsertion Sort");
-        System.out.println(sortArray(sortingContext, arrSmall));
-        System.out.println(sortArray(sortingContext, arrLarge));
+        System.out.println(sortArray(sortingContext, arrSmall.clone()));
+        System.out.println(sortArray(sortingContext, arrLarge.clone()));
 
         sortingContext.setStrategy(new CycleSorting());
         System.out.println("\nCycle Sort");
-        System.out.println(sortArray(sortingContext, arrSmall));
-        System.out.println(sortArray(sortingContext, arrLarge));
+        System.out.println(sortArray(sortingContext, arrSmall.clone()));
+        System.out.println(sortArray(sortingContext, arrLarge.clone()));
     }
 }
